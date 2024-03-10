@@ -23,7 +23,7 @@ def information_bar():
     # Response 0 = Subscription
     # Response 1 = Account
     # Response 2 = Subscription ID
-    response = account.check_account()
+    #response = account.check_account()
     current_version = check.current_version()
     account_cache.clear()
     account_cache.append(response)
