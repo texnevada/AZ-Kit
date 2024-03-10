@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-print(__name__)
 from colorama import Fore, init
-
-import tools
 
 from tools.functions import check, cursor, settings
 from tools.functions.clear import clear
@@ -25,8 +22,8 @@ def information_bar():
     # Response 2 = Subscription ID
     #response = account.check_account()
     current_version = check.current_version()
-    account_cache.clear()
-    account_cache.append(response)
+    #account_cache.clear()
+    #account_cache.append(response)
     clear()
 
     logger.info("#"*79)
