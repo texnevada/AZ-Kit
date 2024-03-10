@@ -1,15 +1,21 @@
 #!/usr/bin/env python3
+print(__name__)
+from colorama import Fore, init
 
-from tools.generic_functions import check, cursor, settings
-from tools.generic_functions.clear import clear
-from tools.generic_functions.setup_logger import get_log
+import tools
+
+from tools.functions import check, cursor, settings
+from tools.functions.clear import clear
+from tools.functions.setup_logger import get_log
 
 init(autoreset=True)
 logger = get_log(__name__)
 account_cache = []
 
+
 def start():
     information_bar()
+
 
 def information_bar():
     user_settings = settings.load_user_settings()

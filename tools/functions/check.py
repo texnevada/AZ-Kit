@@ -1,8 +1,5 @@
-import os
 import subprocess
 import sys
-import requests
-import datetime
 
 
 def current_version():

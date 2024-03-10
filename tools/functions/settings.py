@@ -1,6 +1,6 @@
 import json
 
-from tools.general_functions import check
+from tools.functions import check
 
 
 def load_user_settings():

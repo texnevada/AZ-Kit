@@ -1,7 +1,7 @@
 import logging
 import datetime
 
-from tools.general_functions import settings
+from tools.functions import settings
 
 
 def get_log(name: str):
